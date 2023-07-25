@@ -12,4 +12,15 @@ form{
     display: flex;
     justify-content: left;
     flex-direction: column;
+    text-align: left;
+    align-items: baseline;
+}
+
+label {
+    margin: 10px;
+}
+
+input[type='submit']{
+    background-color: blue;
+    color: white;
 }
