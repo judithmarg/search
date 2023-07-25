@@ -1,7 +1,9 @@
 body{
     background-color: rgb(32,33,36);
+    font-family: Arial, Helvetica, sans-serif;
+
 }
-a {
+.enlaces a {
     display: flex;
     justify-content: right;
 }
@@ -18,18 +20,19 @@ form {
 
 input{
     margin: 10px;
+    font-size: 15px;
 }
 
 input[type=submit]{
-    background-color: rgb(84, 84, 84);
-    color: azure;
+    background-color: rgb(56, 55, 55);
+    color: rgba(240, 255, 255, 0.804);
     border-radius: 5px;
-    padding: 10px;
+    padding: 10px 25px;
     border: none;
 }
 
 input[type=submit]:hover{
-    border: 1px solid aliceblue;
+    border: 1px solid rgba(240, 255, 255, 0.816);
 }
 input[type=text]{
     background-color: transparent;
@@ -40,5 +43,14 @@ input[type=text]{
 }
 
 input[type=text]:hover{
-    background-color: rgb(32,33,36) ;
+    background-color: rgb(56, 55, 55);
+    border: none;
+}
+
+footer{
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
