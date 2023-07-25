@@ -6,11 +6,39 @@ a {
     justify-content: right;
 }
 img {
-    padding: 10% 40% 5% 40%;
+    margin: 6% 40% 20px 40%;
 }
+
 form {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+input{
+    margin: 10px;
+}
+
+input[type=submit]{
+    background-color: rgb(84, 84, 84);
+    color: azure;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+}
+
+input[type=submit]:hover{
+    border: 1px solid aliceblue;
+}
+input[type=text]{
+    background-color: transparent;
+    border: 1px solid aliceblue;
+    border-radius: 20px;
+    width: 550px;
+    height: 40px;
+}
+
+input[type=text]:hover{
+    background-color: rgb(32,33,36) ;
 }
