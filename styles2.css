@@ -55,8 +55,10 @@ input[type=text]{
     background-color: transparent;
     border: 1px solid aliceblue;
     border-radius: 20px;
+    padding-left: 15px;
     width: 550px;
     height: 40px;
+    color: antiquewhite;
 }
 
 input[type=text]:hover{
