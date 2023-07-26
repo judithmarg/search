@@ -70,7 +70,8 @@ footer{
 }
 
 #infoup, #infodown {
-    padding: 5px 10px;
+    margin: 5px;
+    padding: 7px 10px;
     color: rgb(152, 157, 157);
     text-decoration: none;
 }
