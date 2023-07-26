@@ -6,9 +6,16 @@ body{
 .enlaces a {
     display: flex;
     justify-content: right;
+    color: aliceblue;
+    font-size: 15px;
+    text-decoration: none;
 }
-img {
-    margin: 6% 40% 20px 40%;
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20vh 0 auto;
 }
 
 form {
@@ -48,9 +55,26 @@ input[type=text]:hover{
 }
 
 footer{
-    background-color: black;
+    background-color: rgb(22, 22, 22);
     position: absolute;
     bottom: 0;
     right: 0;
     left: 0;
+    color: rgb(152, 157, 157);
+    padding: 5px 10px;
+}
+
+.footerinfo{
+    border-top: 1px solid rgb(152, 157, 157);
+    padding: 10px;
+}
+
+#infoup, #infodown {
+    padding: 5px 10px;
+    color: rgb(152, 157, 157);
+    text-decoration: none;
+}
+
+#infoup:hover, #infodown:hover {
+    text-decoration: underline;
 }
