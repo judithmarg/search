@@ -5,9 +5,15 @@
         <link rel="stylesheet" href="styles3.css">
     </head>
     <body>
-        <a href="index.html">Google Search</a>
+        <a id='enlace' href="index.html">Google Search</a>
+        <div id="logo">
+            <img src="./images/googlelogo.png" alt="logo de google" width="80">
+        </div>
+        <div class="titulo">
+            <span>Busqueda Avanzada</span>
+        </div>
         <form action="https://google.com/search">
-            <h3>Mostrar paginas que contengan</h3>
+            <h4>Mostrar paginas que contengan</h4>
             <label for="query">todas estas palabras:
                 <input type="text" id="query" name="q">
             </label>
@@ -22,5 +28,15 @@
             </label>
             <input type="submit" value="Advanced Search">
         </form>
+        <footer>
+            <div>
+                <p>Bolivia</p>
+            </div>
+            <div class="footerinfo">
+                <a href="https://support.google.com/websearch/?visit_id=638259416047858260-213090415&hl=es-BO&rd=2#topic=3378866" id="infodown">Ayuda</a>
+                <a id="infodown" href="https://policies.google.com/privacy?hl=es-BO&fg=1">Privacidad</a>
+                <a id="infodown" href="https://policies.google.com/terms?hl=es-BO&fg=1">Condiciones</a>
+            </div>
+        </footer>
     </body>
 </html>
